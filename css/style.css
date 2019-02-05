@@ -4401,6 +4401,26 @@ section.parallax-section .section-title:before {
 	transform: scale(1.05);
 }
 /*------ price tables------------------------------------------------*/
+.price-item2 {
+	float: left;
+	width: 50%;
+	position: relative;
+	-webkit-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	z-index: 1;
+}
+
+.price-item4 {
+	float: left;
+	width: 25%;
+	position: relative;
+	-webkit-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	z-index: 1;
+}
+
 .price-item {
 	float: left;
 	width: 33.3%;
