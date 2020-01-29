@@ -164,7 +164,7 @@
                                 <div class="col-md-7">
                                     <div id="contact-form">
                                         <div id="message"></div>
-                                        <form class="custom-form" action="https://getform.io/f/8e2b6d6f-5273-4446-beb5-eba9c1027e75" name="contactform" id="contactform">
+                                        <form class="custom-form" action="https://getform.io/f/8e2b6d6f-5273-4446-beb5-eba9c1027e75" method="POST" name="contactform" id="contactform">
                                             <fieldset>
                                                 <div class="row">
                                                     <div class="col-md-6">
@@ -172,20 +172,13 @@
                                                         <input type="text" name="name" id="name" placeholder="Seu nome" value="" />
                                                     </div>
                                                     <div class="col-md-6">
-                                                        <label><i class="fas fa-envelope"></i> </label>
-                                                        <input type="text" name="email" id="email" placeholder="Seu e-mail" value="" />
-                                                    </div>
-                                                    <div class="col-md-6">
                                                         <label><i class="fas fa-phone"></i> </label>
                                                         <input type="text" name="phone" id="phone" placeholder="Seu telefone" value="" />
                                                     </div>
+                                                    
                                                     <div class="col-md-6">
-                                                        <select name="subject" id="subject" data-placeholder="Subject" class="chosen-select sel-dec">
-                                                            <option>Estou indicado</option>
-                                                            <option value="um amigo">um amigo</option>
-                                                            <option value="um vizinho">um vizinho</option>
-                                                            <option value="um parente">um parente</option>
-                                                        </select>
+                                                        <label><i class="fas fa-envelope"></i> </label>
+                                                        <input type="text" name="email" id="email" placeholder="Seu e-mail" value="" />
                                                     </div>
                                                 </div>
                                                 <textarea name="comments" id="comments" cols="40" rows="3" style="font-family: Arial" placeholder="Use esse espaço para nos informar algum contato da pessoa que deseja indicar. Pode ser nome, whatsapp, e-mail..."></textarea>

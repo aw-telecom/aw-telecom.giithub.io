@@ -504,32 +504,7 @@ function initSolonick() {
         twitterFetcher.fetch(config1);
     }
     //   Contact form------------------
-    $("#contactform").submit(function () {
-        var a = $(this).attr("action");
-        $("#message").slideUp(750, function () {
-            $("#message").hide();
-            $("#submit").attr("disabled", "disabled");
-            $.post(a, {
-                name: $("#name").val(),
-                email: $("#email").val(),
-                phone: $("#phone").val(),
-                subject: $('#subject').val(),
-                comments: $("#comments").val(),
-                verify: $('#verify').val()
 
-            }, function (a) {
-                document.getElementById("message").innerHTML = a;
-                $("#message").slideDown("slow");
-                $("#submit").removeAttr("disabled");
-                if (null != a.match("success")) $("#contactform").slideDown("slow");
-            });
-        });
-        return false;
-    });
-    $("#contactform input, #contactform textarea").keyup(function () {
-        $("#message").slideUp(1500);
-    });
-    $('.chosen-select').selectbox();
     //   mailchimp------------------
     $("#subscribe").ajaxChimp({
         language: "eng",
