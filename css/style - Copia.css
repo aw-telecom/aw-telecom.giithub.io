@@ -1761,7 +1761,6 @@ p.interact,
 }
 
 .slick-dots li button {
-    display: none;
     position: relative;
     width: 14px;
     height: 14px;
@@ -4336,7 +4335,6 @@ section.parallax-section .section-title:before {
 .half-slider-wrap .slick-dots:before,
 .fs-carousel-wrap .slick-dots:before {
     content: '';
-    display: none;
     position: absolute;
     left: -8px;
     right: -8px;
@@ -4351,7 +4349,6 @@ section.parallax-section .section-title:before {
     top: inherit;
     left: inherit;
     right: 50px;
-    display: none;
     bottom: 30px;
 }
 
@@ -4365,7 +4362,6 @@ section.parallax-section .section-title:before {
     position: absolute;
     right: 89px;
     bottom: 43px;
-    display: none;
     z-index: 30;
     color: rgba(255, 255, 255, 0.51);
     letter-spacing: 2px;
@@ -7639,7 +7635,6 @@ section.parallax-section .section-title:before {
     .half-hero-wrap h1 {
         font-size: 26px;
         line-height: 40px;
-        display: none;
     }
 
     .half-hero-wrap h4,
@@ -7653,7 +7648,7 @@ section.parallax-section .section-title:before {
     }
 
     .half-hero-wrap .btn {
-        margin-top: 300px !important;
+        margin-top: 20px !important;
     }
 
     .client-list li {
