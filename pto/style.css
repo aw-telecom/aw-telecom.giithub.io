@@ -2755,6 +2755,7 @@ section.parallax-section .section-title:before {
     z-index: 1;
     -webkit-transition: all .8s ease-in-out;
     transition: all .8s ease-in-out;
+    display: none;
 }
 
 /* ------facts------------------------------------------------------------ */
@@ -5634,7 +5635,7 @@ section.parallax-section .section-title:before {
 }
 
 .text-carousel .text-carousel-item {
-    padding: 30px 65px;
+    padding: 30px 30px;
     background: #fff;
     border: 1px solid #eee;
     border-radius: 4px;
@@ -5713,7 +5714,7 @@ section.parallax-section .section-title:before {
 }
 
 .text-carousel-wrap {
-    margin: 0 0 50px 0;
+    margin: 0 0 0px 0;
     padding: 0 50px;
 }
 
@@ -5759,7 +5760,7 @@ section.parallax-section .section-title:before {
 
 .popup-avatar {
     position: absolute;
-    right: 70px;
+    right: 50px;
     z-index: 10;
     width: 80px;
     height: 80px;
