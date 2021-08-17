@@ -497,7 +497,7 @@ function initSolonick() {
                 "screenName": 'awtelecom'
             },
             "domId": 'twitts-container',
-            "maxTweets": 2,
+            "maxTweets": 3,
             "enableLinks": true,
             "showImages": false
         };
